@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Face Detection Testing
+    </title>
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            position:relative;
+            justify-content: center;
+            align-content: center;
+        }
+        canvas{
+            justify-content: center;
+            align-content: center;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <video id="video" width="720" height="560" autoplay muted></video>
+    <canvas id="canvas" width="720"  height="560" ></canvas>
+    <input type="input" >ke</input>
+    <button id="btnRegister" onclick="registerFace()" disabled={True}>Register Face</button>
+    
+</body>

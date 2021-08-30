@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+opencv-contrib-python
+fastapi
+uvicorn
+sqlalchemy
+pillow
+psycopg2
+pytz
+dlib
+cmake
+face-recognition
+python-multipart
